@@ -18,3 +18,30 @@
     --color-neutral-900: #1b1b13;
     --color-neutral-950: #0b0b03;
 }
+
+@theme inline {
+    --color-background: var(--background);
+    --color-primary: var(--primary);
+    --color-accent: var(--accent);
+    --color-muted: var(--muted);
+}
+
+:root {
+    --background: var(--color-white);
+    --primary: var(--color-neutral-800);
+    --accent: var(--color-neutral-900);
+    --muted: var(--color-neutral-600);
+}
+
+.dark {
+    --background: var(--color-neutral-900);
+    --primary: var(--color-neutral-200);
+    --accent: var(--color-neutral-50);
+    --muted: var(--color-neutral-400);
+}
+
+@layer base {
+    * {
+        scrollbar-width: thin;
+    }
+}
