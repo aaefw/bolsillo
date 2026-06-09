@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Baskervville";
+    src: url("/fonts/Baskervville.woff2");
+}
+
+@font-face {
+    font-family: "Baskervville";
+    src: url("/fonts/BaskervvilleItalic.woff2");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Inter Tight";
+    src: url("/fonts/InterTight.woff2");
+    font-feature-settings: "cv01";
+}
