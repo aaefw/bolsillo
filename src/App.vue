@@ -1,4 +1,10 @@
+<script setup lang="ts">
+import TheHeader from "./components/layout/TheHeader.vue"
+</script>
+
 <template>
-    <h1>Bolsillo</h1>
-    <RouterView />
+    <div class="space-y-5.75">
+        <TheHeader />
+        <RouterView />
+    </div>
 </template>
